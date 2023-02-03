@@ -1,0 +1,6 @@
+set visualbell
+set noerrorbells
+set clipboard+=unnamed
+set NERDTree
+
+nnoremap <C-n> :NERDTree<CR>
