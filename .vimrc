@@ -9,6 +9,8 @@ let &t_EI .= "\e[2 q"
 " 置換モード時に非点滅の下線タイプのカーソル
 let &t_SR .= "\e[4 q"
 
+inoremap jj <Esc> " jj で挿入モードを抜ける
+
 " :PlugInstall でインストール
 call plug#begin()
 Plug 'vim-jp/vimdoc-ja' " 日本語ドキュメント
