@@ -3,4 +3,5 @@ set noerrorbells
 set clipboard+=unnamed
 set NERDTree
 
+source ~/.vimrc
 nnoremap <C-n> :NERDTree<CR>
