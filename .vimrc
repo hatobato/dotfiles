@@ -1,6 +1,7 @@
 set number " 行番号を表示
 set helpheight=999 " ヘルプウィンドウの高さ
 set helplang=ja,en
+set nrformats= " 数値の増減操作を10進数に変更
 
 " 挿入モード時に非点滅の縦棒タイプのカーソル
 let &t_SI .= "\e[6 q"
